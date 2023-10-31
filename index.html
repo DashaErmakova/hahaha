@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="pt-2 pb-2">
+            <div class="container d-flex justify-content-between">
+                <div class="logo">
+                    <img src="images_icons/Avionlg.svg" alt="" class="logo_img">
+                </div>
+                <div class="menu_points d-flex gap-2 flex-sm-column text-center">
+                    <a href="" class="menu_point">Plant pots</a>
+                    <a href="" class="menu_point">Ceramics</a>
+                    <a href="" class="menu_point">Tables</a>
+                    <a href="" class="menu_point">Chairs</a>
+                    <a href="" class="menu_point">Crockery</a>
+                    <a href="" class="menu_point">Tableware</a>
+                    <a href="" class="menu_point">Cutlery</a>
+                </div>
+                <div class="profile">
+                    <img src="images_icons/User--avatar.svg" alt="" class="profile_img">
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 d-flex flex-column justify-content-between">
+                        <div class="group_t_b">
+                            <p>The furniture brand for the future, with timeless designs</p>
+                            <button type="button" class="btn btn-dark mb-2" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">View collection</button>
+                        </div>
+                        <p class="m-0" id="rast">A new era in eco friendly furniture with Avelon, the French luxury retail brand
+                            with nice fonts, tasteful colors and a beautiful way to display things digitally 
+                            using modern web technologies.</p>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 p-0">
+                        <div class="main_photo d-flex justify-content-center">
+                            <img src="images_icons\Right Image.png" alt="" class="main_img img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 class="d-flex justify-content-center pb-3">What makes our brand different</h1>
+                <div class="row">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Next day as standard</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Made by true artisans</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Unbeatable prices</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Recycled packaging</button>
+                        </li>
+                        </ul>
+                        <div class="tab-content pt-2" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Order before 3pm and get your order
+                            the next day as standard</div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Handmade crafted goods made with
+                            real passion and craftmanship</div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">For our materials and quality you won’t find better prices anywhere</div>
+                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">We use 100% recycled packaging to ensure our footprint is manageable</div>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Next day as standard
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Order before 3pm and get your order the next day as standard
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Made by true artisans
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Handmade crafted goods made with real passion and craftmanship
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Unbeatable prices
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            For our materials and quality you won’t find better prices anywhere
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 class="pb-4 text-center">New ceramics</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images_icons/pickawood-rwa0Yh38FeA-unsplash.png" class="d-block img-fluid w-100" alt="...">
+                                <p>The Lucy Lamp</p>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images_icons/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.png" class="d-block w-100" alt="...">
+                                <p>The Dandy chair</p>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images_icons/toa-heftiba-FV3GConVSss-unsplash.png" class="d-block w-100" alt="...">
+                                <p>Rustic Vase Set</p>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 class="pb-4 text-center">Our popular products</h1>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="cards">
+                            <img src="images_icons\Large.png" alt="" class="img-fluid">
+                            <p class="pt-2">The Poplar suede sofa</p>
+                            <p>£980</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                        <div class="cards">
+                            <img src="images_icons\Photo.png" alt="" class="img-fluid">
+                            <p class="pt-2">The Dandy chair</p>
+                            <p>£250</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                        <div class="cards">
+                            <img src="images_icons\Photo-1.png" alt="" class="img-fluid">
+                            <p class="pt-2">The Dandy chair</p>
+                            <p>£250</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="but d-flex justify-content-center pt-4">
+                    <button type="button" class="btn btn-dark">View collection</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 class="pb-4 text-center">Join the club and get the benefits</h1>
+                <p class="text-center">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+                <form class="row g-3 d-flex justify-content-center pt-4">
+                    <div class="col-md-4">
+                      <label for="validationServer01" class="form-label">First name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    <div class="col-12  d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Sign up
+                        </button>
+                    </div>
+                  </form>
+                                    <!-- Button trigger modal -->
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            HELLO!
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex flex-column justify-content-between">
+                        <div class="parts">
+                            <h1>From a studio in London to a global brand with
+                                over 400 outlets</h1>
+                            <p>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.   Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+                        </div>
+                        <div class="parts">
+                            <button type="button" class="btn btn-dark" id="rast">Get in touch</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <img src="images_icons\Image.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 d-flex flex-column">
+                        <a href="">Menu</a>
+                        <a href="">New arrivals</a>
+                        <a href="">Best sellers</a>
+                        <a href="">Recently viewed</a>
+                        <a href="">Popular this week</a>
+                        <a href="">All products</a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 d-flex flex-column">
+                        <a href="">Categories</a>
+                        <a href="">Crockery</a>
+                        <a href="">Furniture</a>
+                        <a href="">Homeware</a>
+                        <a href="">Plant pots</a>
+                        <a href="">Chairs</a>
+                        <a href="">Crockery</a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-6 d-flex flex-column">
+                        <a href="">Our company</a>
+                        <a href="">About us</a>
+                        <a href="">Vacancies</a>
+                        <a href="">Contact us</a>
+                        <a href="">Privacy</a>
+                        <a href="">Returns policy</a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between mt-6 pt-4 pb-4" id="line">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 d-flex align-items-center">
+                        <p class="m-0">Copyright 2022 Avion LTD</p>
+                    </div>
+                    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-5 d-flex justify-content-between">
+                        <img src="images_icons\Vector.svg" alt="" width="20">
+                        <img src="images_icons\Vector-1.svg" alt="" width="20"> 
+                        <img src="images_icons\Vector-2.svg" alt="" width="20">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
